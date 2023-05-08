@@ -6,11 +6,14 @@
 // 2 -> 3 (1 + 2)
 // 8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
 
-const summation = function (num) {
+function summation(num) {
+	if (typeof num !== 'number') return 'Try a number'
+
 	let result = 0
 	for (let i = 1; i <= num; i++) {
 		result += i
 	}
 	return result
 }
-summation(2)
+
+module.exports = summation
