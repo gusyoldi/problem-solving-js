@@ -1,0 +1,15 @@
+{
+	"name": "exercism",
+	"version": "1.0.0",
+	"description": "",
+	"main": "exercise.js",
+	"scripts": {
+		"start": "nodemon problems/summation.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"nodemon": "^2.0.22"
+	}
+}
