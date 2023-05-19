@@ -4,7 +4,6 @@ describe('summation', () => {
 	test('should return the correct total', () => {
 		expect(summation(2)).toBe(3)
 		expect(summation(8)).toBe(36)
-		// expect(summation(100)).toBe(5050)
 	})
 
 	test('should be return a number', () => {
