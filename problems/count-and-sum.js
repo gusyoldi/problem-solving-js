@@ -1,3 +1,5 @@
+'use strict'
+
 /* DESCRIPTION:
 Given an array of integers.
 

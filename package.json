@@ -2,9 +2,10 @@
 	"name": "exercism",
 	"version": "1.0.0",
 	"description": "",
-	"main": "exercise.js",
+	"main": "app.js",
 	"scripts": {
-		"start": "nodemon problems/summation.js",
+		"start:prod": "nodemon app.js",
+		"start": "nodemon problems/find-repeated-gift.js",
 		"test": "jest"
 	},
 	"author": "",
